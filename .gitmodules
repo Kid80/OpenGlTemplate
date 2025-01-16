@@ -1,0 +1,9 @@
+[submodule "external/embed"]
+	path = external/embed
+	url = https://github.com/batterycenter/embed
+[submodule "external/glfw"]
+	path = external/glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "external/glm"]
+	path = external/glm
+	url = https://github.com/g-truc/glm.git
