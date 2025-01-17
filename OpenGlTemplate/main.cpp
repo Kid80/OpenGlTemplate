@@ -29,8 +29,8 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	GLFWwindow* window;
-	window = glfwCreateWindow(1024, 768, "Template", NULL, NULL);
-	if (window == NULL) {
+	window = glfwCreateWindow(1024, 768, "Template", nullptr, nullptr);
+	if (window == nullptr) {
 		fprintf(stderr, "Failed to open GLFW window\n");
 		return -1;
 	}
